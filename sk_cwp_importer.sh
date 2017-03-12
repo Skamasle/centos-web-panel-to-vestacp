@@ -5,7 +5,7 @@
 
 # Imort account from Centos Web Panel to VESTACP
 # This need a ssh conection, ssh port, and mysql password, I asume you have setup SSH keys
-# This also need remote server whit grant access to your IP
+# This also need remote server with grant access to your IP
 # SSH is needit because CWP not have good backup system
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -56,7 +56,7 @@ tput sgr0
 sk_pass=$(date +%s | sha256sum | base64 | head -c 7)
 /usr/local/vesta/bin/v-add-user $sk_cwp_user $sk_pass administrator@example.net default $sk_cwp_user $sk_cwp_user 
 tput setaf 2
-echo "Start Whit Domains"
+echo "Start With Domains"
 tput sgr0
 function deltmp() {
 rm -rf $sk_tmp
