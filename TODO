@@ -1,0 +1,15 @@
+For automatice somethings
+
+Need checks:
+- If user exists, stop 
+- If domain exists not stop, just skip it
+
+Need check conections
+- Check connection to remote ssh
+- Check conections to remote mysql whit root user
+
+Need get
+- Need get mysql root password automaticly from remote .my.cnf
+
+Need give:
+- Need give GRANT PRIVILEGES to your server IP en remove CWP automaticly
