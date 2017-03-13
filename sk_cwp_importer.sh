@@ -101,6 +101,7 @@ function sk_restore_imap_pass () {
 }
 
 function sk_import_mail () {
+# U ser, P assword, M ail D ir, D o M ain
 	mysql_query "SELECT username, password, maildir, domain FROM postfix.mailbox where domain='$1'" | while read u p md dm
 do
 	sk_mail_acc=$(echo "$u" | cut -d "@" -f 1)
