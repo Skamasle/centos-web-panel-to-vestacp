@@ -3,7 +3,7 @@
 # By Maksim Usmanov - Maks Skamasle
 # Beta 0.2 mar 2017
 
-# Imort account from Centos Web Panel to VESTACP
+# Import account from Centos Web Panel to VESTACP
 # This need a ssh conection, ssh port, and mysql password, I asume you have setup SSH keys
 # This also need remote server with grant access to your IP
 # SSH is needit because CWP not have good backup system
